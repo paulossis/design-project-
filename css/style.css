@@ -78,9 +78,11 @@ a:hover {
     text-transform: uppercase;
 }
 .blog__image {
+    max-width: 1263px;
     height: 707px;
 }
 .blog__image__layer {
+    max-width: 1263px;
     height: 707px;
     margin-top: -707px;
 }
@@ -89,7 +91,7 @@ a:hover {
     margin: 0 auto;
     margin-top: -513px;
     padding-left: 134px;
-    padding-right: 803px;
+    margin-right: 803px;
     display: flex;
     flex-direction: column;
     
@@ -153,3 +155,161 @@ a:hover {
     color: #e3b873;
     margin: auto 0;
   }
+.blog__page2 {
+    background: #131313;
+    padding-top: 198px;
+}
+.blog__page2__nav {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 130px;
+    padding-left: 626px;
+    margin-right: 190px;
+    margin-bottom: 52px;
+    list-style: none;
+}
+.blog__page2__nav__1 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(227, 184, 115, 1);
+    border-bottom: 1px solid rgba(227, 184, 115, 1);
+    margin-bottom: 6px;
+}
+.blog__page2__nav__2 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.blog__page2__nav__3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.blog__page2__content {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 134px;
+    margin-right: 134px;
+    padding-bottom: 416px;
+}
+.blog__page2__content__text {
+}
+.blog__page2__content__text__objects {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    width: 253px;
+}
+.blog__page2__content__text__info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 442px;
+    margin-right: 50px;
+}
+.blog__page2__content__text__detail {
+    display: flex;
+    margin-right: 89px;
+    padding-top: 42px;
+    flex-wrap: wrap;
+}
+h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin: 0 auto;
+    margin-bottom: 9px;
+}
+.blog__page2__content__text__detail__city {
+    width: 161px;
+}
+.blog__page2__content__text__detail__city__info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.blog__page2__content__text__detail__area {
+    width: 213px;
+}
+.blog__page2__content__text__detail__area__info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.blog__page2__content__text__detail__time {
+    width: 161px;
+    padding-top: 34px;
+}
+.blog__page2__content__text__detail__time__info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.blog__page2__content__text__detail__cost {
+    width: 218px;
+    padding-top: 34px;
+}
+.blog__page2__content__text__detail__cost__info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.blog__page2__content__text__imgleft {
+    padding-top: 85px;
+    cursor: pointer;
+}
+.blog__page2__content__text__imgdotwt {
+    padding-top: 85px;
+    padding-left: 29px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+.blog__page2__content__text__imgdotgr {
+    padding-top: 85px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+.blog__page2__content__text__imgright {
+    padding-top: 85px;
+    padding-left: 12px;
+    cursor: pointer;
+}
