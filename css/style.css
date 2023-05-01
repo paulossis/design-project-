@@ -86,8 +86,6 @@ a:hover {
     text-align: center;
     text-transform: uppercase;
 }
-.main {
-}
 .blog__page1 {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../images/page1/img1.png) center/cover;
@@ -132,8 +130,8 @@ a:hover {
     text-align: center;
     color: #FFFFFF;
     border: none;
-    margin-right: 20px;
     cursor: pointer;
+    text-transform: uppercase;
 }
 .button_glass {
     border: 1px solid #FFFFFF;
@@ -149,11 +147,16 @@ a:hover {
     color: #FFFFFF;
     cursor: pointer;
     margin-bottom: 208px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
 }
 .blog__page2 {
     background: #131313;
+    padding-bottom: 416px;
+    position: relative;
 }
-ul {
+a {
     list-style: none;
 }
 .blog__container {
@@ -217,9 +220,6 @@ ul {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-}
-.blog__page2__content__text {
-
 }
 .blog__page2__content__text__objects {
     font-family: 'Yeseva One';
@@ -331,9 +331,7 @@ h3 {
     padding-left: 12px;
 }
 .section3 {
-    background: #131313;
-}
-.section3.1 {
+    background: #ffffff;
 }
 .blog__container {
     max-width: 1263px;
@@ -348,13 +346,15 @@ h3 {
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-top: 92px;
+    margin-top: -298px;
+    position: sticky;
 }
 .cameraimg {
     padding-top: 12px;
     display: flex;
     justify-content: center;
     margin-bottom: 31px;
+    position: relative;
 }
 .videoplay {
     margin: auto 0;
@@ -386,31 +386,169 @@ h3 {
     cursor: pointer;
 }
 .hr_line {
-  
+    width: 55px;
+    border: none;
+    color: rgba(227, 184, 115, 1);
+    background-color: rgba(227, 184, 115, 1);
+    height: 2px; 
+    margin-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .titleh4-text {
+    width: 681px;
+    padding-top: 34px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    color: #363636;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    margin-bottom: 93px;
+    
 }
 .online-control__form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
 }
 .online-control__lable {
+    display: flex;
+    flex-direction: column;
+    width: 231px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
 }
 .online-control__input {
-}
-.online-control__span-mobile-of {
-}
-.online-control__span-desktop-of {
-}
-.button {
-}
-.online-control__button {
+    border: none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    padding-top: 7px;
+    padding-bottom: 6px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23px;
+    color: #363636;
 }
 .check {
-}
-.check__input {
+    padding-top: 39px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .check__box {
+    background: #E3B873;
+    border-radius: 1px;
 }
 .check__text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #181818;
+    cursor: pointer;
+}
+.blog__container {
+}
+.titleh5 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 147px;
+    margin-bottom: 13px;
+}
+.toolimg {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+.tyres_of_repair__flex_container {
+    display: flex;
+    justify-content: space-between;
+}
+.title__style {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+    padding-top: 25px;
+    margin-left: 31px;
+    margin-right: 31px;
+    max-width: 330px;
+    margin-top: -127px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    padding-left: 34px;
+
+}
+.Redicoration {
+    display: flex;
+    flex-direction: column;
+}
+.redicoration_img {
+}
+.tyres_of_repair__item {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+    padding-left: 10px;
+    margin-bottom: 23px;
+}
+.button__width {
+    width: 228px;
+    margin-top: -17px;
+    margin-bottom: 124px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.Overhaul {
+    display: flex;
+    flex-direction: column;
+}
+.overhaul_img {
+}
+.overhaul__item {
+}
+.Designer_Repair {
+    display: flex;
+    flex-direction: column;
+}
+
+.Designer_Repair_img {
+}
+.Designer_Repair__item {
 }
 
 
