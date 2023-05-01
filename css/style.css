@@ -13,7 +13,7 @@ header {
     color:  white;
     text-transform: uppercase;
 }
-.container {
+.header__container {
     margin: 0 auto;
     height: 83px;
     display: flex;
@@ -133,6 +133,7 @@ a:hover {
     color: #FFFFFF;
     border: none;
     margin-right: 20px;
+    cursor: pointer;
 }
 .button_glass {
     border: 1px solid #FFFFFF;
@@ -146,6 +147,8 @@ a:hover {
     line-height: 15px;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
+    margin-bottom: 208px;
 }
 .blog__page2 {
     background: #131313;
@@ -213,7 +216,7 @@ ul {
 .blog__page2__content {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between
+    justify-content: space-between;
 }
 .blog__page2__content__text {
 
@@ -239,21 +242,176 @@ ul {
     color: #FFFFFF;
     width: 442px;
 }
+h3 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
 .blog__page2__content__text__detail {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 42px;
 }
 .blog__page2__content__text__detail__city {
+    display: flex;
+    flex-direction: column;
+    width: 161px;
 }
 .blog__page2__content__text__detail__city__info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 161px;
 }
 .blog__page2__content__text__detail__area {
+    display: flex;
+    flex-direction: column;
+    margin-right: 89px;
+    padding-left: 29px;
 }
 .blog__page2__content__text__detail__area__info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF; 
 }
 .blog__page2__content__text__detail__time {
+    display: flex;
+    flex-direction: column;
+    margin-right: 34px;
+    width: 156px;
+    padding-top: 34px;
 }
 .blog__page2__content__text__detail__time__info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
 .blog__page2__content__text__detail__cost {
+    display: flex;
+    flex-direction: column;
+    margin-right: 89px;
+    padding-top: 34px;
 }
 .blog__page2__content__text__detail__cost__info {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
 }
+.blog__page2__content__navigation {
+    padding-top: 80px;
+    display: flex;
+    margin: 0;
+}
+.blog__page2__content__text__imgleft {
+    margin-right: 29px;
+}
+.blog__page2__content__text__imgdotwt {
+    margin-right: 17px;
+}
+.blog__page2__content__text__imgdotgr {     
+    margin-right: 17px;
+}
+.blog__page2__content__text__imgright {
+    padding-left: 12px;
+}
+.section3 {
+    background: #131313;
+}
+.section3.1 {
+}
+.blog__container {
+    max-width: 1263px;
+    margin: 0 auto;
+}
+.titleh4 {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 92px;
+}
+.cameraimg {
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+.videoplay {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.videoplay__img {
+    position: relative;
+}
+
+.z1 {
+    position: absolute;
+    z-index: 1;
+}
+.z2 {
+    position: absolute;
+    z-index: 2;
+    background: #E3B873;
+    border-radius: 50%;
+    padding: 42px 42px;
+    border: none;
+    cursor: pointer;
+}
+
+.z3 {
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+}
+.hr_line {
+  
+}
+.titleh4-text {
+}
+.online-control__form {
+}
+.online-control__lable {
+}
+.online-control__input {
+}
+.online-control__span-mobile-of {
+}
+.online-control__span-desktop-of {
+}
+.button {
+}
+.online-control__button {
+}
+.check {
+}
+.check__input {
+}
+.check__box {
+}
+.check__text {
+}
+
+
+
