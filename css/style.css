@@ -555,7 +555,7 @@ h3 {
     flex-direction: column;
 }
 .page5 {
-    background: url(/images/page5/image\ 6.1.svg) no-repeat;
+    background: url(../images/page5/image\ 6.1.svg) no-repeat;
 
 }
 .blog__container {
