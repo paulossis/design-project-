@@ -317,6 +317,7 @@ h3 {
     padding-top: 80px;
     display: flex;
     margin: 0;
+    cursor: pointer;
 }
 .blog__page2__content__text__imgleft {
     margin-right: 29px;
@@ -447,11 +448,27 @@ h3 {
     padding-top: 39px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
-.check__box {
+.check__input {
+    display: none;
+}
+.check__input:checked + .fake::before{
+    opacity: 1;
+  }
+.fake{
+    display: inline-flex;
+    width: 18px;
+    height: 18px;
     background: #E3B873;
-    border-radius: 1px;
-}
+    color: #fff;
+    justify-content: center;
+  }
+  .fake::before{
+    content:"\2714";
+    opacity: 0;
+    transition: .2s;
+  }
 .check__text {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -460,8 +477,6 @@ h3 {
     line-height: 163.68%;
     color: #181818;
     cursor: pointer;
-}
-.blog__container {
 }
 .titleh5 {
     font-family: 'Yeseva One';
@@ -510,8 +525,6 @@ h3 {
     display: flex;
     flex-direction: column;
 }
-.redicoration_img {
-}
 .tyres_of_repair__item {
     font-family: 'Nunito Sans';
     font-style: normal;
@@ -537,18 +550,74 @@ h3 {
     display: flex;
     flex-direction: column;
 }
-.overhaul_img {
-}
-.overhaul__item {
-}
 .Designer_Repair {
     display: flex;
     flex-direction: column;
 }
+.page5 {
+    background: url(/images/page5/image\ 6.1.svg) no-repeat;
 
-.Designer_Repair_img {
 }
-.Designer_Repair__item {
+.blog__container {
+}
+.page5__content {
+    display: flex;
+    justify-content: space-between;
+}
+.page5__content__text {
+    padding-left: 95px;
+    width: 420px;
+    padding-top: 110px;
+
+}
+.page5__content__text__1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.page5__content__text__button {
+    background: #E3B873;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+    border-radius: 50%;
+    padding: 21px 21px;
+    color: #FFFFFF;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 21px;
+}
+.page5__content__text__p {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #363636; 
+}
+.page5__content__text__2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.page5__content__text__3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.page5__content__text__4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.page5__content__form {
 }
 
 
