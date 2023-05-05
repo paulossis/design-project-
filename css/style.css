@@ -172,6 +172,9 @@ a {
     margin-bottom: 52px;
     padding-left: 584px;
 }
+.blog__page2__container__nav li {
+    list-style-type: none;
+}
 .blog__page2__container__nav__1 {
     text-decoration: none;
     font-family: 'Yeseva One';
@@ -184,6 +187,7 @@ a {
     border-bottom: 1px solid #E3B873;
     padding-bottom: 6px;
 }
+
 .blog__page2__container__nav__1:hover {
     border-bottom: 1px solid #E3B873;
     padding-bottom: 6px;
@@ -445,7 +449,7 @@ h3 {
     color: #363636;
 }
 .check {
-    padding-top: 39px;
+    margin-top: 39px;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
@@ -534,6 +538,7 @@ h3 {
     color: #959595;
     padding-left: 10px;
     margin-bottom: 23px;
+    list-style: disc;
 }
 .button__width {
     width: 228px;
@@ -556,13 +561,11 @@ h3 {
 }
 .page5 {
     background: url(../images/page5/image\ 6.1.svg) no-repeat;
-
-}
-.blog__container {
 }
 .page5__content {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .page5__content__text {
     padding-left: 95px;
@@ -618,7 +621,89 @@ h3 {
     margin-bottom: 50px;
 }
 .page5__content__form {
+    background: rgba(19, 19, 19, 1);
+    margin-top: 110px;
+    width: 506px;
+    padding-left: 49px;
+    padding-right: 49px;
+    margin-bottom: 40px;
 }
+.page5__content__title {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    width: 297px;
+    padding-top: 28px;
+}
+.page5__content__form__lable {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7px;
+    padding-top: 23px;
+    margin-bottom: 16px;
+}
+.page5__content__form__input {
+    background-color: #00000000;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    color: rgb(255, 255, 255);
+    line-height: 23px;
+    outline: 0;
+    outline-offset: 0;
+}
+.page5__content__form__input::placeholder {
+    color: #fff;
+}
+.check__text1 {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 163.68%;
+    color: #FFFFFF;
+}
+.page5__content__form__posicion_button {
+    margin-top: 39px;
+    display: flex;
+    justify-content: end;
+}
+.page5__content__actiom {
+    display: flex;
+    justify-content: end;
+    width: 1263px;margin-bottom: 254px;
+
+}
+.btn_pig {
+    padding: 16px 16px;
+    border-radius: 50%;
+    border: none;
+    background: #E3B873;
+    margin-right: 25px;
+}
+.page5__content__actiom__text {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #E3B873;
+    text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+    width: 344px;
+}
+/* page 6 */
+
 
 
 
