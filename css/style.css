@@ -703,6 +703,79 @@ h3 {
     width: 344px;
 }
 /* page 6 */
+.page6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 110px;
+
+}
+.page6__section {
+    background:  linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%),
+    url(../images/page6/img1.png) center/cover;
+}
+
+.page6__text__title {
+    padding-top: 137px;
+    margin-bottom: 37px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #E3B873;
+
+}
+.page6__text__title__nav {
+    list-style: none; 
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px; 
+    color: #ffffff;
+    
+}
+.page6__text__title__nav li {
+    padding-top: 11px;
+}
+.page6__text__title__nav li:last-child{
+
+}
+.page6__text__title__nav__border:hover {
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 1px;
+    color: #E3B873;
+    cursor: pointer;
+}
+.page6__text__title__nav__border {
+     margin: 0;
+     padding: 0;
+}
+.page6_photo {
+    display: flex;
+}
+.page6_photo1-2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 43px;
+}
+.page6_photo__1 {
+    margin-top: -41px;
+}
+.page6_photo__2__img {
+    position: relative;
+    top: 40px;
+}
+.page6_photo3-4 {
+}
+.page6_photo__3 {
+    margin-top: -112px;
+}
+.page6_photo__4 {
+    margin-top: 40px;
+}
 
 
 
